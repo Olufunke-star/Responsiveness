@@ -1,0 +1,31 @@
+*{ margin: 0;
+padding: 0;}
+body,h2,h3,p{ margin: 0;
+    padding: 0;
+}
+
+
+ body { padding:2em ; font-family: "Open Sans" ; font-size:18px; } 
+header img{ width: 200px;  padding-bottom: 120px ; }
+.mockup_img {  width: 95% ; }
+.content h2 {  font-size: 40px; }
+.content { flex-basis: 70%;  font-family: "Poppins" ;}
+.content p{ color : rgb(94, 88, 88); font-weight: 400; font-size: 18px;}
+.content button { padding :1em ; border-radius:30px ; color:white; border : none ;
+     background-color: hsl( 322, 100%, 66%) ; width: 40%;}
+.column{ display: flex ; flex-direction: column; padding: 5%; background-color: white;
+    margin: 5%; box-sizing: border-box; 
+    border-color: black; border: 3em ; box-shadow: 100px; }
+    .growing_img {  width: 80% ; float : right; }
+    .flowing_img {  width: 80% ; }
+    .users_img {  width: 80% ; float: right;}
+    .text { width: 130%;  }
+     .text p{ color : rgb(94, 88, 88); font-weight: 400; font-family: "Open Sans" ; font-size:18px; }
+     .text button { padding :1em ; border-radius:30px ; color:white; border : none ;
+        background-color: hsl( 322, 100%, 66%) ; width: 40%; border-radius: 100px;} 
+        .text2 { width: 130%;  }
+        .text2 p{ color : white; font-weight: 400; font-family: "Open Sans" ; font-size:18px;  }
+        .text2 p:before{  padding-right: 4px ; } 
+             header{ color:white;}
+            .text2{ float: left ; display: inline; justify-content: space-evenly; }
+            footer .text2 {color: white; font-size: 20px;}
