@@ -16,7 +16,7 @@ body {
   font-size: 18px;
 }
 header img {
-  width: 200px;
+  width: 250px;
   padding-bottom: 120px;
 }
 .mockup_img {
@@ -28,6 +28,8 @@ header img {
 .content {
   flex-basis: 70%;
   font-family: "Poppins";
+  margin-right: -7%
+
 }
 .content p {
   color: rgb(94, 88, 88);
@@ -42,6 +44,12 @@ header img {
   background-color: hsl(322, 100%, 66%);
   width: 40%;
 }
+
+.content button:hover { background-color: hsl(322, 100%, 66%); opacity: 0.6;}
+.text button:hover { background-color:hsl(322, 100%, 66%)  ; opacity: 0.6;}
+footer .fa-brands:hover {color: hsl(322, 100%, 66%) ; border-color:hsl(322, 100%, 66%) ; }
+a:hover{ text-decoration: underline ; color: white;}
+a:not(:hover){ text-decoration: none ; color: white;}
 .column {
   display: flex;
   flex-direction: column;
@@ -108,7 +116,7 @@ footer .text2 {
 
 }
 
-.text2 p { margin-left: 5%; white-space: nowrap ;}
+.text2 p { margin-left: 5%; white-space: nowrap ; font-size: small; font-weight: lighter;}
  
 .row { display: flex; flex-direction: row; }
 .texts { float : right; display: flex; flex-direction: row;}
@@ -128,3 +136,6 @@ footer .text-1 { margin-left: -40%;  color: white;
       font-size: 20px;
        padding-left : 11%;
       margin-top: 15% ;white-space: nowrap; }
+
+      footer .fa-brands {color: white; font-size:15px ; 
+        border: 1px solid white; padding: 5px ;border-radius: 55%; margin-right: 5px ;}
