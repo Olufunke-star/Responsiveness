@@ -139,3 +139,11 @@ footer .text-1 { margin-left: -40%;  color: white;
 
       footer .fa-brands {color: white; font-size:15px ; 
         border: 1px solid white; padding: 5px ;border-radius: 55%; margin-right: 5px ;}
+
+
+    @media screen and ( max-width :375px) { . content{ display: block ;}
+
+      header img{ width : 100%}
+
+}
+
