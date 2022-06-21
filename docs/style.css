@@ -142,7 +142,7 @@ footer .text-1 { margin-left: -40%;  color: white;
 
 
     @media screen and ( max-width :375px) {
-    .content{ display: block ;}
+    .content{ display: flex; flex-direction: column; }
 
       header img { width : 100%}
 
