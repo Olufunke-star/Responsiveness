@@ -141,9 +141,10 @@ footer .text-1 { margin-left: -40%;  color: white;
         border: 1px solid white; padding: 5px ;border-radius: 55%; margin-right: 5px ;}
 
 
-    @media screen and ( max-width :375px) { . content{ display: block ;}
+    @media screen and ( max-width :375px) {
+    .content{ display: block ;}
 
-      header img{ width : 100%}
+      header img { width : 100%}
 
-}
+   }
 
