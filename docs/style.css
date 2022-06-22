@@ -1,19 +1,22 @@
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
 }
-body,
+body
 h2,
 h3,
 p {
   margin: 0;
-  padding: 0;
-}
+  padding: 0;}
+html, body{ overflow-x:visible ;}
+
 
 body {
   padding: 2em;
   font-family: "Open Sans";
   font-size: 18px;
+  margin: 0;
+  position:relative;
 }
 header img {
   width: 250px;
@@ -29,6 +32,7 @@ header img {
   flex-basis: 70%;
   font-family: "Poppins";
   margin-right: -7%
+  ;width: 100%;
 
 }
 .content p {
@@ -139,3 +143,99 @@ footer .text-1 { margin-left: -40%;  color: white;
 
       footer .fa-brands {color: white; font-size:15px ; 
         border: 1px solid white; padding: 5px ;border-radius: 55%; margin-right: 5px ;}
+
+ @media screen and ( max-width: 375px) {
+
+  header img { width: 100px;
+        padding-bottom: 50px;
+        margin-right: 250px;}
+       
+ div{ display: block !important;}
+ .content { margin-right: -6% ; }
+
+ .content h2{  font-size: 20px; margin-right: 50px;}
+
+ .content p{  font-size: 12px; margin-right: 80px; flex-wrap:  wrap;}
+
+
+
+ .content button {  padding: 1em;
+  width: 60%;
+  margin-right: 65px; }
+
+ .mockup_img {  width: 75%;
+  margin-top: 15%;
+  margin-right: 40px }
+
+ body {     padding: 1em;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-size: hidden;
+  margin: 0 ;
+  position: relative;
+  text-align: center  }
+
+  .growing_img {
+    float: right;
+    width: 130%;  }
+  .text p {  font-size: 10px;
+    flex-wrap: wrap;
+    text-align: center;}
+ .flowing_img { 
+  width: 130%;  
+  margin-left: -15%;  margin-top: 5%; }
+
+div.column { flex-direction: column-reverse !important;
+   display: flex; padding: 50px; padding-left: 25%; padding-top: 25px; padding-bottom: 25px;}
+ .users_img {
+  width: 140%;
+  float: right;
+  margin-right: -38px;  }
+
+
+  .text button { width : 70%; padding: 1em;}
+
+footer .text-1 {
+  margin-left: -30%;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  white-space: nowrap;
+  margin-top: 2.5%;  }
+
+
+  footer .text0 {
+    color: white;
+    font-size: 15px;
+    padding-left: 35%;
+    margin-top: 15%;
+    white-space: nowrap;
+    margin-left: -150%;}
+
+    footer .text1 {
+      color: white;
+      font-size: 15px;
+      margin-top: 15%;
+      white-space: nowrap;
+      margin-right: 100%;}
+
+      footer .text2 {
+        color: white;
+        font-size: 2px;
+        margin-left: -40px;
+        width: 250px;
+        white-space: nowrap;
+          margin-top: 15%;}
+
+        .text2 p{
+          margin-left: -7%;
+          white-space: nowrap;
+          font-size: small;
+          font-weight: lighter; }
+
+
+
+        div.text { overflow: hidden; width: 200% ; margin-left: -65%;}
+
+
+        }
