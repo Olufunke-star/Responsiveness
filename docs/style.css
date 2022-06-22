@@ -232,11 +232,6 @@ footer .text-1 {
           white-space: nowrap;
           font-size: small;
           font-weight: lighter; }
-
-
-
-        div.text { overflow: hidden; width: 200% ; margin-left: -65%;}
-
-
+ div.text { overflow: hidden; width: 200% ; margin-left: -65%;}
         }
 
