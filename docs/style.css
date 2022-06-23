@@ -188,7 +188,7 @@ footer .fa-brands {
   header img {
     width: 100px;
     padding-bottom: 50px;
-    margin-right: 250px;
+    margin-right: 400px;
   }
 
   div {
@@ -200,19 +200,19 @@ footer .fa-brands {
 
   .content h2 {
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 150px;
   }
 
   .content p {
     font-size: 12px;
-    margin-right: 80px;
+    margin-right: 160px;
     flex-wrap: wrap;
   }
 
   .content button {
     padding: 1em;
     width: 60%;
-    margin-right: 65px;
+    margin-right: 160px;
   }
 
   .mockup_img {
@@ -318,11 +318,9 @@ footer .fa-brands {
   
     font-family: "Poppins";
     margin-right: -7%;
-    width: 80%; }
-  footer.row { overflow: visible;  margin-right: -355px;  }
+    width: 130%; }
+  footer.row { overflow: visible; }
   
-  
-  
-  
+
   
   } 
