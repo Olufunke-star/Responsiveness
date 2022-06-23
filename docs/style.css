@@ -25,13 +25,13 @@ header img {
   padding-bottom: 120px;
 }
 .mockup_img {
-  width: 95%;
+  width: 85%;
 }
 .content h2 {
   font-size: 40px;
 }
 .content {
-  flex-basis: 70%;
+  
   font-family: "Poppins";
   margin-right: -7%;
   width: 100%;
@@ -311,19 +311,18 @@ footer .fa-brands {
     overflow: hidden;
     width: 200%;
     margin-left: -65%;
-  }
+  } }
   
-
+ @media screen and (max-width: 1440px){  
+  div.content {
   
-
-
-
-
-
-
-
-
-
-
-}
-
+    font-family: "Poppins";
+    margin-right: -7%;
+    width: 80%; }
+  footer.row { overflow: visible;  margin-right: -355px;  }
+  
+  
+  
+  
+  
+  } 
